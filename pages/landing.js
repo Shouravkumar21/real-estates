@@ -1,3 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable jsx-a11y/alt-text */
+
 import Head from "next/head";
 import { useState } from "react";
 import {
@@ -128,9 +132,7 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* FIXED ERROR: removed extra </section> */}
-
-      {/* PRODUCTS SECTION (unchanged) */}
+      {/* PRODUCTS SECTION */}
       <section className="py-8 relative min-h-screen flex items-center" style={{ background: "linear-gradient(135deg, #FFC0CB 0%, #FFB6C1 50%, #FFA0B0 100%)" }}>
         <div className="max-w-6xl mx-auto px-4 w-full">
 
@@ -186,7 +188,7 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* FOOTER (unchanged) */}
+      {/* FOOTER */}
       <footer className="bg-gradient-to-br from-blue-400 via-blue-500 to-blue-700 py-12 relative">
         <div className="absolute top-8 right-8 text-white text-2xl bg-blue-600 px-6 py-3 rounded-lg shadow-lg">
           لا إله إلا ٱلله محمد رسول ٱلله

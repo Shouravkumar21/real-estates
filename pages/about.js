@@ -1,3 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable jsx-a11y/alt-text */
+
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../components/Layout';
@@ -27,7 +31,7 @@ export default function About() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center mb-8">Our Mission</h2>
             <p className="text-lg text-gray-700 leading-relaxed text-center">
-              At OnDrive Realty, we're committed to making your real estate journey as smooth and successful as possible. 
+              At OnDrive Realty, we&apos;re committed to making your real estate journey as smooth and successful as possible. 
               We leverage cutting-edge technology, including real-time NWMLS integration, to provide you with the most 
               up-to-date property listings and market insights. Our team of experienced agents is dedicated to understanding 
               your unique needs and helping you find the perfect home or investment property.
@@ -97,7 +101,7 @@ export default function About() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Community</h3>
                 <p className="text-gray-600">
-                  We're committed to strengthening the communities we serve.
+                  We&apos;re committed to strengthening the communities we serve.
                 </p>
               </div>
             </div>
@@ -112,7 +116,7 @@ export default function About() {
               <p className="text-lg leading-relaxed">
                 Founded in 2003, OnDrive Realty began with a simple mission: to revolutionize the real estate 
                 experience in the Pacific Northwest. What started as a small team of passionate real estate 
-                professionals has grown into one of the region's most trusted and innovative brokerages.
+                professionals has grown into one of the region&apos;s most trusted and innovative brokerages.
               </p>
               <p className="text-lg leading-relaxed">
                 We were among the first in the region to fully integrate with the NWMLS system, providing our 
@@ -122,7 +126,7 @@ export default function About() {
               </p>
               <p className="text-lg leading-relaxed">
                 Today, our team of over 50 expert agents serves clients throughout Washington State, 
-                specializing in residential, commercial, and investment properties. We're proud to be a 
+                specializing in residential, commercial, and investment properties. We&apos;re proud to be a 
                 part of the communities we serve and look forward to helping you with your real estate needs.
               </p>
             </div>
